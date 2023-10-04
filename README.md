@@ -60,6 +60,10 @@
 - Give Following Command.
 - ```bash```
 - git clone https://github.com/MuksudulIslam/TestNG-Selenium-OrangeHRM-Web-Automation
+- For Smoke Testing.
+- ```gradle clean test -Pfilesuite="SmokeSuite.xml"```
+- For Regression Testing.
+- ```gradle clean test -Pfilesuite="RegressionSuite.xml"```
 
 ## Test Cases:
 https://docs.google.com/spreadsheets/d/1QJ2dbhgcAmlKmtUzEeONBrdcFD9LuEF6/edit?usp=sharing&ouid=116047475173257041850&rtpof=true&sd=true
