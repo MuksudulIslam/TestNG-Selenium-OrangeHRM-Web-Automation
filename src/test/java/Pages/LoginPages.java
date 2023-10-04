@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class LoginPages extends Setup {
+public class LoginPages{
     @FindBy(name = "username")
     WebElement txtUsername;
 
