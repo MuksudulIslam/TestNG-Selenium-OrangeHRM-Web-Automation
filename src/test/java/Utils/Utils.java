@@ -54,19 +54,19 @@ public class Utils {
         String numbers = "0123456789";
         String symbols = "!@#$%&*";
 
-        StringBuilder password = new StringBuilder();
-        password.append(upperCase.charAt((int) (Math.random() * upperCase.length())));
-        password.append(lowerCase.charAt((int) (Math.random() * lowerCase.length())));
-        password.append(numbers.charAt((int) (Math.random() * numbers.length())));
-        password.append(symbols.charAt((int) (Math.random() * symbols.length())));
+        StringBuilder pass = new StringBuilder();
+        pass.append(upperCase.charAt((int) (Math.random() * upperCase.length())));
+        pass.append(lowerCase.charAt((int) (Math.random() * lowerCase.length())));
+        pass.append(numbers.charAt((int) (Math.random() * numbers.length())));
+        pass.append(symbols.charAt((int) (Math.random() * symbols.length())));
 
-        int desiredLength = 12;
-        while (password.length() < desiredLength) {
+        int length = 12;
+        while (pass.length() < length) {
             String allCharacters = upperCase + lowerCase + numbers + symbols;
-            password.append(allCharacters.charAt((int) (Math.random() * allCharacters.length())));
+            pass.append(allCharacters.charAt((int) (Math.random() * allCharacters.length())));
         }
 
-        return password.toString();
+        return pass.toString();
     }
 
     public static int generateRandomNumber(int min, int max) {
