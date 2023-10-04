@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Orange HRM Automation">
+    <test name="New User Update Info Gender and BloodGroup ">
+        <groups>
+            <run>
+                <include name = "regression">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunners.UserUpdateTestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>

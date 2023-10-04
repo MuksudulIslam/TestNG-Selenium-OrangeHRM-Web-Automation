@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Orange HRM Automation">
+    <test name="Admin Login">
+        <groups>
+            <run>
+                <include name = "regression">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunners.AdminLoginTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name=" Login New User">
+        <groups>
+            <run>
+                <include name = "regression">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunners.UserLoginTestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>

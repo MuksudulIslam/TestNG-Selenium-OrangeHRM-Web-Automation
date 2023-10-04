@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Orange HRM Automation">
+    <test name="PIM Dashboard Create and Search ">
+        <groups>
+            <run>
+                <include name = "regression">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunners.PIMTestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
