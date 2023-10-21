@@ -2,7 +2,7 @@
 
 ## Project Description:
 
-### Welcome to the TestNG-Selenium OrangeHRM Web Automation project. This framework is designed to make testing the OrangeHRM web application easier and more efficient. It uses two essential tools: TestNG and Selenium WebDriver to automate various tests. In this Project, Selenium WebDriver and TestNG framework are used to automate the OrangeHRM website folowing tasks as login, logout, create new user, search user and update user infomations.
+### Welcome to the TestNG-Selenium OrangeHRM Web Automation project. This framework is designed to make testing the OrangeHRM web application easier and more efficient. It uses two essential tools: TestNG and Selenium WebDriver to automate various tests. In this Project, Selenium WebDriver and TestNG framework are used to automate the OrangeHRM website following tasks as login, logout, create new user, search user and update user informations.
 
 ## Tools and Technologies:
 
